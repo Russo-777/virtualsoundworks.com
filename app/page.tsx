@@ -8,11 +8,49 @@ export default function Home() {
           <div>
             <h2 className="text-3xl font-semibold mb-4">Welkom bij Sound Rank</h2>
             <p className="text-gray-300 mb-4">
-              Ontdek de wereld van professionele audio productie en sound design.
+              Ontdek de wereld van virtuele geluidservaring. Wij bieden innovatieve 
+              oplossingen voor audio productie en sound design.
             </p>
             <button className="bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 rounded-lg">
               Ontdek meer
             </button>
+          </div>
+          
+          <div className="grid grid-cols-2 gap-4">
+            <div className="bg-gray-800 p-6 rounded-lg">
+              <h3 className="text-xl font-semibold mb-2">Sound Design</h3>
+              <p className="text-gray-400">Professionele audio oplossingen</p>
+            </div>
+            <div className="bg-gray-800 p-6 rounded-lg">
+              <h3 className="text-xl font-semibold mb-2">Studio</h3>
+              <p className="text-gray-400">State-of-the-art faciliteiten</p>
+            </div>
+            <div className="bg-gray-800 p-6 rounded-lg">
+              <h3 className="text-xl font-semibold mb-2">Mixing</h3>
+              <p className="text-gray-400">Perfecte geluidsmix</p>
+            </div>
+            <div className="bg-gray-800 p-6 rounded-lg">
+              <h3 className="text-xl font-semibold mb-2">Mastering</h3>
+              <p className="text-gray-400">Professionele afwerking</p>
+            </div>
+          </div>
+        </section>
+        
+        <section className="text-center">
+          <h2 className="text-3xl font-semibold mb-8">Onze Services</h2>
+          <div className="grid md:grid-cols-3 gap-8">
+            <div className="bg-gray-800 p-8 rounded-lg">
+              <h3 className="text-xl font-semibold mb-4">Audio Productie</h3>
+              <p className="text-gray-400">Complete studio services voor uw projecten</p>
+            </div>
+            <div className="bg-gray-800 p-8 rounded-lg">
+              <h3 className="text-xl font-semibold mb-4">Sound Design</h3>
+              <p className="text-gray-400">Creatieve geluidsoplossingen</p>
+            </div>
+            <div className="bg-gray-800 p-8 rounded-lg">
+              <h3 className="text-xl font-semibold mb-4">Consulting</h3>
+              <p className="text-gray-400">Expert advies voor uw audio projecten</p>
+            </div>
           </div>
         </section>
       </div>
